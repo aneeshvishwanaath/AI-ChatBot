@@ -43,7 +43,7 @@ Follow these steps to set up and run the AI ChatBot locally.
     Start the Streamlit app:
 
     ```bash
-    streamlit run app.py
+    streamlit run chatbot.py
     ```
 
 ## Usage
