@@ -1,21 +1,20 @@
 # AI ChatBot
 
-A sophisticated chatbot built using the Gemini API. This chatbot is designed to handle a range of queries with intelligent responses, leveraging the capabilities of the Gemini API for enhanced interaction.
+A sophisticated chatbot designed to handle a wide range of queries with intelligent and contextually relevant responses. The chatbot leverages advanced conversational abilities and provides an intuitive user experience through Streamlit.
 
 ## Features
 
-- **Intelligent Responses:** Provides accurate and relevant answers to various types of queries.
-- **Gemini API Integration:** Utilizes the Gemini API for advanced conversational abilities and understanding.
-- **Versatile Query Handling:** Capable of handling a broad spectrum of questions beyond specific domains.
+- **Intelligent Responses:** Delivers accurate and context-aware answers to various queries.
+- **Streamlit Interface:** Provides a user-friendly web interface using Streamlit.
 
 ## Getting Started
 
-To get started with the AI ChatBot, follow these steps:
+Follow these steps to set up and run the AI ChatBot locally.
 
 ### Prerequisites
 
 - Python 3.x
-- Node.js and npm (for server-side operations)
+- Streamlit library
 
 ### Installation
 
@@ -39,45 +38,23 @@ To get started with the AI ChatBot, follow these steps:
     pip install -r requirements.txt
     ```
 
-4. **Install Node.js Dependencies**
+4. **Run the Bot**
 
-    Navigate to the bot directory and install dependencies.
-
-    ```bash
-    cd bot
-    npm install
-    ```
-
-5. **Configure Environment Variables**
-
-    Create a `.env` file in the root directory and add necessary configuration details. Example:
-
-    ```env
-    GEMINI_API_KEY=your_gemini_api_key
-    ```
-
-6. **Run the Bot**
-
-    Start the Python server and the Node.js server.
+    Start the Streamlit app:
 
     ```bash
-    # In one terminal
-    python app.py
-    
-    # In another terminal
-    cd bot
-    npm start
+    streamlit run app.py
     ```
 
 ## Usage
 
-- **Default Prompt:** The chatbot starts with a default message about its capabilities. It is designed to provide responses to a wide range of queries.
+- **Default Prompt:** The chatbot starts with a default message about its capabilities. It provides intelligent responses to a wide range of queries.
 
-- **Interacting with the Chatbot:** You can interact with the chatbot using the provided UI or test it via tools like Bot Framework Emulator.
+- **Interacting with the Chatbot:** Use the Streamlit web interface to interact with the chatbot.
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! Please follow these steps to contribute:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
@@ -91,5 +68,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- **Gemini API:** For providing advanced conversational capabilities and enhancing the chatbot's performance.
-
+- **Streamlit:** For providing an easy-to-use framework to build the chatbot’s web interface.
